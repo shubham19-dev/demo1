@@ -1,0 +1,78 @@
+body
+{
+    background-color: #eaffd0;
+    margin: 0px;
+    text-align: center;
+    font-size:20px ;
+}
+h1{
+    font-size: 400%;
+    font-family: sans-serif;
+}
+.top
+{
+
+    background-color: palegreen;
+    height: 200px;
+    width: 200px;
+
+    /* position: relative;
+    display: inline-block; */
+
+}
+.middle
+{
+
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 200px;
+    /* position: relative;
+    left: 200px;
+    display: inline-block; */
+    /* bottom: 200px; */
+}
+.bottom
+{
+
+    background-color:yellow;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 400px;
+    top: 400px;
+    /* position: relative;
+    left: 400px; */
+    /* bottom: 400px; */
+
+}
+
+.skill-row
+{
+    margin: auto;
+    width: 50%;
+text-align: left;
+}
+
+.st1
+{
+    width: 20%;
+    float: left;
+    padding-right: 20px;
+
+}
+.st2
+{
+    width: 20%;
+    float: right;
+
+    /* padding-left: 20px; */
+
+}
+
+.st12
+
+{
+    clear: left;
+}
